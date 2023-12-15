@@ -22,12 +22,14 @@ const Input = (props) => {
     <div>
       <form className="create-note">
         <input
+          style={{ textTransform: "capitalize" }}
           onChange={handle}
           value={show.title}
           name="title"
           placeholder="Title"
         />
         <textarea
+          style={{ textTransform: "capitalize" }}
           onChange={handle}
           value={show.content}
           name="content"

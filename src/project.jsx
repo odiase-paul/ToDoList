@@ -20,7 +20,9 @@ const Project = () => {
   }
   return (
     <div>
-      <Footer />
+      <header>
+        <h1>To Do List:</h1>
+      </header>
 
       <Input onSend={send} />
       {receive.map((addItem, index) => {
@@ -34,6 +36,7 @@ const Project = () => {
           />
         );
       })}
+      <Footer />
     </div>
   );
 };

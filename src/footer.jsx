@@ -2,10 +2,6 @@ const Footer = () => {
   const year = new Date().getFullYear();
   return (
     <div>
-      <header>
-        <h1>keeper</h1>
-      </header>
-
       <footer>
         <p>Copyright © {year}</p>
       </footer>
